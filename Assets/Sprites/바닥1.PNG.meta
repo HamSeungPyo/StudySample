@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: 33e410693ca4dca419b7a16f8be33c74
+guid: 5161d475c09a649428ce5762dc70cd09
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: "\uB9DD\uCE58\uACF5\uACA9_0"
-    21300002: "\uB9DD\uCE58\uACF5\uACA9_1"
-    21300004: "\uB9DD\uCE58\uACF5\uACA9_2"
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -43,12 +40,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,71 +93,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: "\uB9DD\uCE58\uACF5\uACA9_0"
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 340
-        height: 233
-      alignment: 9
-      pivot: {x: 0.58, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73f96ff594c694b468d618b2f27bd057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\uB9DD\uCE58\uACF5\uACA9_1"
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 0
-        width: 340
-        height: 233
-      alignment: 9
-      pivot: {x: 0.58, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1279ead758659cd4a8910921afc38172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\uB9DD\uCE58\uACF5\uACA9_2"
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 0
-        width: 340
-        height: 233
-      alignment: 9
-      pivot: {x: 0.58, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f54843a33366f4147812ebfb3f46143f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c3c2a5aca07b80b4f956f2e800e35b31
+    spriteID: 0cf25dc88e5b5b549acfa376fa87c17d
     vertices: []
     indices: 
     edges: []
