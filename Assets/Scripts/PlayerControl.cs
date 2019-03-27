@@ -20,12 +20,15 @@ public class PlayerControl : MonoBehaviour
     }
     private void Update()
     {
+        //점프
         if (Input.GetKeyDown(KeyCode.Space)&& bAttackMode)
         {
             anim.SetTrigger("Attack");
         }
-        int animNum = 1;
-        move = Input.GetAxis("Horizontal");
+        int animNum = 1;//애니
+
+        //이동
+        move = Input.GetAxis("Horizontal");        
         if (move > 0)
         {
             attack.transform.localPosition = new Vector3(1.2f, attack.transform.localPosition.y, 0);
@@ -78,6 +81,13 @@ public class PlayerControl : MonoBehaviour
             Destroy(col.gameObject);
             anim.SetBool("bAttackMode", bAttackMode);
             anim.SetTrigger("ModeChange");
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.transform.tag == "Enemy")
+        {
+            Destroy(gameObject);
         }
     }
 }
